@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.final_project.Game">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" layoutX="-2.0" opacity="0.89" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ps213/IdeaProjects/Final_Project/src/assets/assets/bg_color.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D height="720.0" width="1280.0" />
+         </viewport>
+      </ImageView>
+      <ImageView fitHeight="123.0" fitWidth="64.0" layoutX="1202.0" layoutY="14.0" onMouseClicked="#pressPauseButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ps213/IdeaProjects/Final_Project/src/assets/assets/button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hero" fitHeight="85.0" fitWidth="64.0" layoutX="697.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ps213/IdeaProjects/Final_Project/src/assets/assets/Helmet3.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
