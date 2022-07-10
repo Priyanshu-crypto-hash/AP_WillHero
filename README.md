@@ -16,6 +16,7 @@ Will Hero is a 2D platform-based arcade game where you play as a small horse who
 ![Home Screen](https://user-images.githubusercontent.com/83296467/178116194-717aa3ac-5444-4070-acb9-e807dc5028ee.png)
 
 ## Gameplay
+
 ![Bund](https://user-images.githubusercontent.com/83296467/178119450-089d3e63-2320-49b8-b09a-122f4ee5a7bf.gif)
 
 
